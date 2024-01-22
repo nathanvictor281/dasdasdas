@@ -1,0 +1,60 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    opacity:0.33
+}
+
+p,h2{
+    text-align: center;
+
+}
+.menu{
+    margin-right: 100px;
+
+}
+.menu a {
+    margin-left: 20px;
+}
+.item p{
+    position: definite;
+
+    top:50%;
+    left:20%
+transform:translate(-50%-50%)
+
+}
+.item :hover p{
+    opacity: inherit;
+}
+.item :hover img{
+    opacity:0.333
+
+}
+
+
